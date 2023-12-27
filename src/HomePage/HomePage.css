@@ -1,0 +1,50 @@
+
+body{
+    background-color: black;
+    color: white; 
+}
+
+.space-images-container {
+    display: flex;
+    justify-content: center; 
+    overflow-x: auto;
+    width: 100%; 
+    margin-top: 5rem;
+    margin: auto;
+    height: 94vh;
+}
+
+
+.space-image {
+    flex: 0 0 16.66%; 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-top: 5rem;
+    transition: flex 0.3s ease; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: relative; 
+
+}
+
+
+
+.space-image:hover {
+    flex: 0 0 33%; 
+    background-size: contain; 
+}
+
+.image-title {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center; 
+    z-index: 10; 
+}

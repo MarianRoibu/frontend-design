@@ -1,0 +1,47 @@
+
+.article-container {
+    max-width: 800px; 
+    margin: auto; 
+    padding: 40px 20px; 
+    background-color: transparent; 
+    text-align: center; 
+    color: white; 
+}
+
+.article-title {
+    font-size: 2.5em; 
+    margin-bottom: 30px; 
+}
+
+.article-image {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 30px; 
+}
+
+.article-content {
+    font-size: 1.2em; 
+    line-height: 1.8; 
+    margin-bottom: 30px; 
+}
+
+.article-metadata {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.article-metadata-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.article-author {
+    text-align: right;
+    flex: 1;
+}
+
+.article-source {
+    text-align: left;
+    flex: 1;
+}

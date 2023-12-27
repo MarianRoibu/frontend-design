@@ -1,0 +1,35 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: -.1rem;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #3d3d3d; 
+}
