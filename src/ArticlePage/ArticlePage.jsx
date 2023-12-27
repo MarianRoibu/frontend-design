@@ -17,7 +17,7 @@ const ArticlePage = () =>
     const { data: article, isLoading, error } = useQuery( ['article', id], () => fetchArticle( id ) );
 
     if ( isLoading ) return <div>Loading...</div>;
-    if ( error ) return <div>An error occurred:.. {error.message}</div>;
+    if ( error ) return <div>An error occurred: {error.message}</div>;
 
     return (
         <>
